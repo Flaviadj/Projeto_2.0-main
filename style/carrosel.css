@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.carrosel{
+    display: flex;
+    width: 1280px;
+    height: 580px;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.carrosel ul{  
+    list-style-type: none;
+    width: 1280px;
+    height: 580px;
+}
+.carrosel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+@keyframes slide{
+    0%{left: 0px;}
+    10%{left: 0px;}
+
+    20%{left: -1280px;}
+    30%{left: -1280px;}
+
+    40%{left: -2560px;}
+    50%{left: -2560px;}
+
+    60%{left: -3840px;}
+    70%{left: -3840px;}
+
+    80%{left: -5120px;}
+    90%{left: -5120px;}
+
+    100%{left: 0px;}
+}
